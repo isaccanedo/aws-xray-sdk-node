@@ -1,0 +1,43 @@
+{
+  "name": "aws-xray-sdk-hapi",
+  "version": "3.6.0",
+  "description": "AWS X-Ray plugin for Hapi.JS",
+  "author": "Amazon Web Services",
+  "contributors": [
+    "Alex Coulcher<alex@polyglot.rodeo>",
+    "Eric Swann <eric.swann@q2.com>"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "mocha --recursive --exit ./test/ -R spec && tsd",
+    "test-d": "tsd",
+    "sample": "node sample"
+  },
+  "engines": {
+    "node": ">= 14.x"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": ">=18.x",
+    "aws-xray-sdk-core": "^3.6.0"
+  },
+  "keywords": [
+    "amazon",
+    "api",
+    "aws",
+    "hapi",
+    "xray",
+    "x-ray",
+    "x ray"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/aws/aws-xray-sdk-node/tree/sdk_contrib/koa"
+}

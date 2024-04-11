@@ -1,0 +1,14 @@
+{
+  "all": true,
+  "include": [
+    "**/dist/lib/**/*.js"
+  ],
+  "exclude": [
+    "**/*.d.ts",
+    "**/sample/**",
+    "**/test/**",
+    "**/test-d/**",
+    "**/test_async/**",
+    "**/docs/**"
+  ]
+}
